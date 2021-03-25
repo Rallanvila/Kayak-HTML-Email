@@ -347,10 +347,72 @@ body,
 	}
 }
 .footer_top {
-	background: #14191f;
-	background-color: #14191f;
+	background: #212830;
+	background-color: #212830;
 	& > tbody > tr > th {
-		padding-bottom: 30px;
-		padding-top: 30px;
+		padding-bottom: 25px !important;
+		padding-top: 20px !important;
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	th {
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+	.circle_logo {
+		display: block;
+		margin: 0 auto;
+	}
+	.call_to_action {
+		display: block;
+		font-size: 14px;
+	}
+	.info_section > table > tbody > tr > th {
+		color: white;
+		padding-left: 12px;
+		padding-top: 10px;
+		.info {
+			font-size: 12px;
+			hyphens: none;
+		}
+	}
+	.appstore {
+		padding-top: 10px;
+		height: 35px;
+	}
+	.playstore {
+		height: 35px;
+		padding-top: 10px;
+	}
+}
+.footer_bottom {
+	background-color: #15181c;
+	background: #15181c;
+	.footer_logo {
+		background-color: #15181c;
+		background: #15181c;
+		padding: 32px;
+		.logo_orange {
+			width: 137px;
+		}
+	}
+	.footer_social {
+		background-color: #15181c;
+		background: #15181c;
+		display: inline-block;
+		padding: 15px;
+	}
+	.footer_social--links {
+		display: inline-block;
+		width: 30px;
+		padding: 14px 5px;
+		cursor: pointer;
+	}
+	.terms_and_conditions {
+		background-color: #15181c;
+		background: #15181c;
+	}
+	span {
+		color: white;
 	}
 }
