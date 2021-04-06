@@ -3,7 +3,6 @@ body,
 .body {
 	background: #e4e5ea;
 	background-color: #e4e5ea;
-	padding-bottom: 300px;
 }
 .header {
 	background: $primary-color;
@@ -256,6 +255,7 @@ body,
 			border-radius: 5px;
 			color: #ffffff;
 			background: black;
+			margin: 0 auto;
 			&:hover {
 				background: $primary-color;
 			}
@@ -383,11 +383,17 @@ body,
 	.appstore {
 		padding-top: 10px;
 		height: 35px;
+		&:hover {
+			cursor: pointer !important;
+		}
 	}
 	.playstore {
 		height: 35px;
 		width: 105px;
 		padding-top: 10px;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
 .footer_social {
@@ -418,7 +424,10 @@ body,
 		}
 		.twitter {
 			width: 32px;
-			padding: 0;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+			padding-top: 0 !important;
+			padding-bottom: 0 !important;
 		}
 	}
 }
@@ -507,12 +516,10 @@ body,
 	}
 	.address {
 		& > tbody > tr > th > table > tbody > tr > th {
-			padding-bottom: 30px;
 		}
 		p {
 			color: #ffffff;
 			font-size: 13px;
-			padding-bottom: 10px;
 		}
 	}
 }
